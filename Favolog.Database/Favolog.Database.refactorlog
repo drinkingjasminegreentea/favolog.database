@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="473b89e8-5fe5-4cfb-bfb8-192fc2efbaa4" ChangeDateTime="02/13/2021 09:49:08">
+    <Property Name="ElementName" Value="[dbo].[FK_CatalogProduct_ToCatalog]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[CatalogProduct]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_CatalogProduct_Catalog]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="52fbda15-fe3d-492d-a633-bc66c2b99349" ChangeDateTime="02/17/2021 20:45:01">
+    <Property Name="ElementName" Value="[dbo].[User].[ProfileImageName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ImageName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9fb2670c-37c9-4e89-8ebe-09dc126fd973" ChangeDateTime="02/20/2021 02:11:39">
+    <Property Name="ElementName" Value="[dbo].[User].[IdpId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AuthUserId" />
+  </Operation>
+</Operations>
