@@ -4,7 +4,7 @@
 	[ProfileImage] VARCHAR(200) NULL, 
     [FirstName] NVARCHAR(100) NULL,
     [LastName] NVARCHAR(100) NULL, 
-    [EmailAddress] VARCHAR(250) NOT NULL,    
+    [EmailAddress] VARCHAR(250) NULL,    
     [Bio] VARCHAR(250) NULL,    
     [Website] VARCHAR(250) NULL,
     [ExternalId] VARCHAR(50) NOT NULL, 
