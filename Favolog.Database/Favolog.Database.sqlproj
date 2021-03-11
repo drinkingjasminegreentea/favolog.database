@@ -63,8 +63,7 @@
   <ItemGroup>
     <Build Include="dbo\Tables\Catalog.sql" />
     <Build Include="dbo\Tables\Category.sql" />
-    <Build Include="dbo\Tables\Item.sql" />
-    <Build Include="dbo\Tables\CatalogItem.sql" />
+    <Build Include="dbo\Tables\Item.sql" />    
     <Build Include="dbo\Views\UserFeed.sql" />
   </ItemGroup>
   <ItemGroup>
