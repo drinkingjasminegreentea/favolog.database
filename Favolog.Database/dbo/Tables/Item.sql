@@ -4,7 +4,7 @@
 	[CatalogId] INT NOT NULL, 
 	[Title] NVARCHAR(1000),	
 	[ImageName] NVARCHAR(1000),
-	[Comments] NVARCHAR(2000),
+	[Comment] NVARCHAR(2000),
 	[Url] NVARCHAR(1000),
 	[SourceImageUrl] NVARCHAR(1000),
     [OriginalUrl] NVARCHAR(1000), 
